@@ -42,8 +42,8 @@ function onRemoveAlldata(event) {
 
     console.log(localStorageAPI.load("feedback-form-state"))
     event.currentTarget.reset();
-    localStorage.clear()
-    }
+    localStorageAPI.remove("feedback-form-state")
+}
     
 
 
